@@ -33,10 +33,6 @@ export default function Room() {
 
     }
     return (
-        <div className="h-screen flex justify-center items-center">
-            <div className="border border-gray-300 rounded-lg p-4 shadow-lg">
-                <div ref={myMeeting} />
-            </div>
-        </div>
+        <div ref={myMeeting} />
     )
 }
