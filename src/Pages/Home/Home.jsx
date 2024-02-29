@@ -14,7 +14,7 @@ export default function Home() {
     setRotate(true); // Trigger rotation animation
     setTimeout(() => {
       navigate(`/room/${value}`);
-    }, 4000); // Redirect to room page after 4 seconds
+    }, 2000); 
   }, [value, navigate]);
 
   return (
